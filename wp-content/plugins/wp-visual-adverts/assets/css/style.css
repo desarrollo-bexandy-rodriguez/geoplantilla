@@ -1,0 +1,19 @@
+/*--------------------------------------------------------------*/
+/*-- CSS Document --*/
+/*-- Copyright (c) 2015. WebCodin --*/
+/*-- @author WebCodin --*/
+/*--------------------------------------------------------------*/
+
+/*-----------------------------------------------------------------*/
+/*--- Base Plugin Styles ---*/
+/*-----------------------------------------------------------------*/
+.main-visual-adverts { position: relative; }
+.visual-adverts { position: absolute; }
+.visual-adverts .visual-adverts-item { padding-bottom: 25px; }
+.visual-adverts .visual-adverts-item-title { margin: 0; padding-top: 15px; }
+.visual-adverts .visual-adverts-item-image { padding-top: 15px; }
+.visual-adverts .visual-adverts-item-content { padding-top: 13px; }
+.visual-adverts .visual-adverts-item-title:first-child, .visual-adverts .visual-adverts-item-content:first-child, .visual-adverts .visual-adverts-item-image:first-child { padding-top: 0; }
+.visual-adverts .visual-adverts-item img { width: 100%; height: auto; visibility: visible; }
+.visual-adverts .visual-adverts-item-content p { margin: 0 !important; }
+

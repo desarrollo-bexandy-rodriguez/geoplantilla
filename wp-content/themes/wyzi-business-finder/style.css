@@ -1,0 +1,191 @@
+/*
+Theme Name: WYZI Business Finder
+Theme URI: http://wyzi.wztechno.com
+Author: WzTechno
+Author URI: http://www.wztechno.com/
+Description: Social Business Finder Theme by WzTechno
+Text Domain: wyzi-business-finder
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: one-column, left-sidebar, right-sidebar, custom-background, custom-colors, custom-menu, featured-images, full-width-template, sticky-post, theme-options, threaded-comments, translation-ready
+Version: 2.0.3
+
+*/
+/*
+.wyz-post-thumb, .post-logo img {
+    height: auto !important;
+    max-height: 80px !important;
+    max-width: 80px !important;
+    width: auto !important;
+}
+*/
+
+.bus-post-grid .footer {
+    height: 7px !important;
+}
+
+.bus-post-grid .head {
+    height: 180px !important;
+}
+
+.busi-post-label {
+  display: none;
+}
+
+.icono {
+  position: absolute;
+  bottom: 3px ;
+  color: #3366FF;
+}
+
+.sin-busi-rate .content {
+    height: 200px !important;
+}
+
+.margin-bottom-100 > .container {
+    width: 100% !important;
+}
+
+.cliente-logo{
+
+}
+
+.cliente-descripcion {
+    text-align: right;
+}
+
+.shadow {
+    -moz-box-shadow: 3px 3px 4px #111;
+    -webkit-box-shadow: 3px 3px 4px #111;
+    box-shadow: 3px 3px 4px #111;
+    /* IE 8 */
+    -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#111111')";
+    /* IE 5.5 - 7 */
+    filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#111111');
+}
+
+.contenedor {
+  margin-bottom: 50px;
+}
+.superior {
+  position: absolute;
+  width: 440px;
+}
+
+.inferior {
+  display: inline-block;
+  position: relative;
+  top: 200px;
+}
+
+.interna {
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+.rojo {
+  background-color: #AC1616;
+  color: white;
+  float: right;
+  font-size: 0.7em;
+  margin-right: 5px;
+  border: 0px!important;
+}
+
+.rojo strong, .azul strong {
+  padding: 0 5px;
+}
+
+.azul {
+  background-color: #7C7CF1;
+  color: white;
+  float: left;
+  font-size: 0.7em;
+  margin-left: 0px !important;
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+  border: 0px!important;
+}
+
+.titulo {
+  color: blue;
+}
+
+.centro {
+  align: center;
+}
+
+.boxizq {
+  float: left;
+  width: 35%;
+}
+
+.boxder {
+  float: right;
+  width: 65%;
+}
+
+.caja {
+ margin-bottom: 15px;
+
+
+ .sin-padmarg {
+  padding: 0px 0px !important;
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+  margin: 0px !important;
+ }
+
+.nopadding {
+   padding: 0 !important;
+   margin: 0 !important;
+}
+
+.row-no-padding {
+  [class*="col-"] {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+}
+
+.row-no-padding > [class^="col-"], .row-no-padding > [class*="col-"] {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+.row-no-padding  [class*="col-"] {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+.sin-busi-post {
+    border: 0px solid #ececec !important;
+}
+
+.con-bordes {
+  border: 1px solid #ececec !important;
+}
+
+.sin-bordes {
+    border: 0px solid #ececec !important;
+}
+
+head a {
+  font-size: 0.7em;
+}
+
+.relativo {
+  position: relative;
+}
+
+.absoluto-abajo {
+  position: absolute;
+  bottom: 1px;
+  right: 0px;
+  height: auto;
+}
+
+.absoluto-arriba {
+  position: absolute;
+  bottom: 50px;
+}

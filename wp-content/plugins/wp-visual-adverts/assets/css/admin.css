@@ -1,0 +1,152 @@
+/*--------------------------------------------------------------*/
+/*-- CSS Document --*/
+/*-- Copyright (c) 2015. WebCodin --*/
+/*-- @author WebCodin --*/
+/*--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------*/
+/*--- WP Visual Adverts Hedaline Styles ---*/
+/*--------------------------------------------------------------*/
+.wcp-visual-adverts-headline { margin: 20px 20px 0 0; border: 1px solid #dfdfdf; background: #fff; padding: 20px 10px; box-sizing: border-box; }
+.wcp-visual-adverts-headline > table { width: 100%; font-size: 1em; }
+.wcp-visual-adverts-headline td { vertical-align: middle; }
+.wcp-visual-adverts-headline-icon { width: 128px; }
+.wcp-visual-adverts-headline-icon img { display: block; }
+.wcp-visual-adverts-headline-info { padding: 0 20px; }
+.wcp-visual-adverts-headline-info h1 { margin: 0; padding: 0 0 10px; line-height: 1em; }
+.wcp-visual-adverts-headline-info p { margin: 0; padding: 5px 0; }
+.wcp-visual-adverts-headline-info .wcp-visual-adverts-headline-rate { text-decoration: none; color: #36a9cf; font-weight: bold; }
+.wcp-visual-adverts-headline-links { width: 15%; }
+.wcp-visual-adverts-headline-links .wcp-visual-adverts-headline-links-wrapper { background: #36a9cf; color: #fff; padding: 10px; }
+.wcp-visual-adverts-headline-links h2 { margin: 0; padding: 0 0 10px; color: #fff; }
+.wcp-visual-adverts-headline-links ul, .wcp-visual-adverts-headline-links ul li { margin: 0; padding: 0; } 
+.wcp-visual-adverts-headline-links ul li { padding: 2px 0; }
+.wcp-visual-adverts-headline-links a { text-decoration: none; color: #fff; outline: none; box-shadow: none; }
+.wcp-visual-adverts-headline-links span.dashicons { font-size: 16px; width: 16px; height: 16px; line-height: 16px; vertical-align: middle; }
+/*--------------------------------------------------------------*/
+/*--- WCP Visual Adverts Form Styles ---*/
+/*--------------------------------------------------------------*/
+.wrap.wcp-visual-adverts-form-wrap { margin: 0 20px 0 0; }
+.wrap.wcp-visual-adverts-form-wrap h2,
+.wrap.wcp-visual-adverts-theme-settings > h2 { padding: 0; }
+.wrap.wcp-visual-adverts-form-wrap .nav-tab-wrapper { border: 1px solid #dfdfdf; border-width: 0 1px 1px; background: #fff; padding: 10px; }
+.wrap.wcp-visual-adverts-form-wrap .nav-tab-wrapper a.nav-tab { border: 0; padding: 5px 25px; background: #dfdfdf; margin: 0 0 0 10px; }  
+.wrap.wcp-visual-adverts-form-wrap .nav-tab-wrapper a.nav-tab:first-child { margin: 0 0 0 5px; }                              
+.wrap.wcp-visual-adverts-form-wrap .nav-tab-wrapper a.nav-tab-active { background: #36a9cf; color: #fff; }
+/*--------------------------------------------------------------*/
+.wrap.wcp-visual-adverts-form-wrap p.submit .button.button-primary { background: #959595; border: 0;  border-radius: 0; box-shadow: none; text-shadow: none; color: #fff; font-weight: bold; text-transform: uppercase; padding: 5px 25px; height: auto; line-height: 24px; font-size: 14px; margin-right: 10px; }
+.wrap.wcp-visual-adverts-form-wrap p.submit .button.button-primary:first-child { background: #36a9cf; }
+/*--------------------------------------------------------------*/
+.wcp-visual-adverts-form-wrap .settings-error { margin: 15px 0 0px!important; }
+/*--------------------------------------------------------------*/
+.wcp-visual-adverts-settings-content { padding-top: 15px; }
+.wcp-visual-adverts-settings-content .wcp-visual-adverts-settings-title { background: #36a9cf; color: #fff; padding: 10px 15px; }
+.wcp-visual-adverts-settings-content .wcp-visual-adverts-settings-title h3 { margin: 0; text-transform: uppercase; color: #fff; font-size: 15px; }                                                                           
+.wcp-visual-adverts-settings-content .wcp-visual-adverts-settings-inner-table { background: #fff; border: 1px solid #e1e1e1; border-width: 0 1px 1px; padding: 7px 15px; margin: 0; } 
+.wcp-visual-adverts-settings-content .wcp-visual-adverts-settings-inner-table > .description { background: #fff; padding: 1px 15px 9px; border-bottom: 1px solid #e1e1e1; margin: 0 -15px 7px; }
+/*--------------------------------------------------------------*/
+.wcp-visual-adverts-settings-content .wcp-visual-adverts-settings-inner-table .form-table { margin: 0; }
+.wcp-visual-adverts-settings-content .wcp-visual-adverts-settings-inner-table .form-table th { padding: 20px 10px 20px 0; }
+.wcp-visual-adverts-settings-content .wcp-visual-adverts-settings-inner-table .form-table input[type="number"] { width: 100px; }
+.wcp-visual-adverts-settings-content .wcp-visual-adverts-settings-inner-table .form-table .wcp-visual-adverts-field-imagesize input[type="number"] { margin-right: 10px; }
+.wcp-visual-adverts-settings-content .wcp-visual-adverts-settings-inner-table .form-table .wcp-visual-adverts-field-imagesize .wcp-visual-adverts-field-settings-row { padding-top: 0; margin-bottom: -5px; }
+.wcp-visual-adverts-settings-content .wcp-visual-adverts-settings-inner-table .form-table .wcp-visual-adverts-field-imagesize .wcp-visual-adverts-field-settings-row input[type="checkbox"] { margin: 0 !important; }
+.wcp-visual-adverts-settings-content .wcp-visual-adverts-settings-inner-table .form-table .wcp-visual-adverts-field-imagesize .wcp-visual-adverts-crop-row { padding: 5px 0 0; }
+/*--------------------------------------------------------------*/
+/*--- WCP Visual Adverts Notice Styles ---*/
+/*--------------------------------------------------------------*/      
+.wcp-visual-adverts-field-settings-row { position: relative; }
+.wcp-visual-adverts-field-settings-notice { position: absolute; right: 0; bottom: 19px; cursor: pointer; }
+.wcp-visual-adverts-field-settings-notice .dashicons { color: #40b3d9; line-height: 21px; }
+.wcp-visual-adverts-field-settings-notice .dashicons-editor-help, .wcp-visual-adverts-field-settings-notice .dashicons-warning { font-size: 24px; width: 22px; }  
+.wcp-visual-adverts-field-settings-notice .dashicons-warning { font-size: 22px; } 
+.wcp-visual-adverts-field-settings-notice .dashicons-no-alt { font-size: 14px; width: 10px; position: absolute; top: -2px; right: 5px; }
+.wcp-visual-adverts-field-settings-notice .description { display: none; background: #fff; font-size: 13px; line-height: 17px; padding: 9px 15px 10px 13px; margin: 0; border: 1px solid #ccc; position: absolute; right: -11px; bottom: 27px; z-index: 100; width: 320px; z-index: 10000; box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04); }
+.wcp-visual-adverts-field-settings-notice .description:after, .wcp-visual-adverts-field-settings-notice .description:before { top: 100%; left: 94.1%; border: solid transparent; content: " "; height: 0; width: 0; position: absolute; pointer-events: none; }
+.wcp-visual-adverts-field-settings-notice .description:after { border-color: rgba(250, 250, 250, 0); border-top-color: #fff; border-width: 6px; margin-left: -6px; }
+.wcp-visual-adverts-field-settings-notice .description:before { border-color: rgba(221, 221, 221, 0); border-top-color: #ccc; border-width: 7px; margin-left: -7px; }
+/*--------------------------------------------------------------*/   
+.form-table .wcp-visual-adverts-field-settings-notice { bottom: auto; display: inline-block; padding-top: 3px; position: relative; right: auto; vertical-align: top; }
+.form-table .wcp-visual-adverts-field-settings-notice .description { /*lright: -61px;*/ }
+.form-table .wcp-visual-adverts-field-settings-notice .description:after, .form-table .wcp-visual-adverts-field-settings-notice .description:before {/*left: 79%;*/}
+.form-table .wcp-visual-adverts-field-settings-notice .dashicons { color: #40b3d9; }
+.form-table .wcp-visual-adverts-field-settings-row-checkbox .wcp-visual-adverts-field-settings-notice .description { right: -250px; }
+.form-table .wcp-visual-adverts-field-settings-row-checkbox .wcp-visual-adverts-field-settings-notice .description::after, 
+.form-table .wcp-visual-adverts-field-settings-row-checkbox .wcp-visual-adverts-field-settings-notice .description::before { left: 25.5%; }
+.form-table .wcp-visual-adverts-field-settings-row .widefat { max-width: 97%; }
+/*--------------------------------------------------------------*/   
+.form-table .wcp-visual-adverts-field-settings-row-checkbox { padding-top: 1px; }
+.form-table .wcp-visual-adverts-field-settings-row-checkbox input[type="checkbox"] { margin-right: 1px; }
+.form-table .wcp-visual-adverts-field-settings-row-checkbox .wcp-visual-adverts-field-settings-notice { padding: 0; margin-top: -2px; } 
+.form-table .wcp-visual-adverts-field-settings-row-number .wcp-visual-adverts-field-settings-notice { padding-top: 4px; }
+.form-table .wcp-visual-adverts-field-imagesize .wcp-visual-adverts-field-settings-notice { padding-top: 5px; margin-left: -10px; }
+/*-----------------------------------------------------------------*/                               
+/*--- Media Queries Styles ---*/
+/*-----------------------------------------------------------------*/
+
+/*-----------------------------------------------------------------*/
+/*---------- Styles for tablet 0 - 1024px --------*/
+/*-----------------------------------------------------------------*/
+@media only screen and (min-width: 0) and (max-width: 1024px) {
+    .wcp-visual-adverts-headline-icon { display: none; width: 0; }
+    .wcp-visual-adverts-headline-info p:last-child { padding-bottom: 0; }
+    .wcp-visual-adverts-headline-links { width: 25%; }
+}
+/*-----------------------------------------------------------------*/
+/*---------- Styles for WP adaprive page canvas 0 - 782px --------*/
+/*-----------------------------------------------------------------*/
+@media only screen and (min-width: 0) and (max-width: 782px) {
+    .wcp-visual-adverts-headline { margin: 10px 10px 0 0; }
+    .wrap.wcp-visual-adverts-form-wrap { margin: 0 10px 0 0; }
+    .wcp-visual-adverts-settings-content { padding-top: 10px; }
+    .form-table .wcp-visual-adverts-field-settings-notice,
+    .form-table .wcp-visual-adverts-field-settings-row-number .wcp-visual-adverts-field-settings-notice,
+    .form-table .wcp-visual-adverts-field-imagesize .wcp-visual-adverts-field-settings-notice { padding-top: 10px; }
+    .form-table .wcp-visual-adverts-field-settings-notice .description { width: 225px; }
+    .form-table .wcp-visual-adverts-field-settings-notice .description::after, 
+    .form-table .wcp-visual-adverts-field-settings-notice .description::before { left: 91.5%; }   
+    .form-table .wcp-visual-adverts-field-settings-row-checkbox .wcp-visual-adverts-field-settings-notice .description { right: -200px; }
+    .form-table .wcp-visual-adverts-field-settings-row-number .wcp-visual-adverts-field-settings-notice .description { right: -165px; } 
+    .form-table .wcp-visual-adverts-field-settings-row-checkbox .wcp-visual-adverts-field-settings-notice .description::after,
+    .form-table .wcp-visual-adverts-field-settings-row-checkbox .wcp-visual-adverts-field-settings-notice .description::before { left: 17.5%; } 
+    .form-table .wcp-visual-adverts-field-settings-row-number .wcp-visual-adverts-field-settings-notice .description::after,
+    .form-table .wcp-visual-adverts-field-settings-row-number .wcp-visual-adverts-field-settings-notice .description::before { left: 31.5%; }     
+}
+/*-----------------------------------------------------------------*/
+/*---------- Styles for mobile 0 - 640px --------*/
+/*-----------------------------------------------------------------*/
+@media only screen and (min-width: 0) and (max-width: 640px) {
+    .wcp-visual-adverts-headline-info { padding: 0; }
+    .wcp-visual-adverts-headline-links { padding-top: 15px; }
+    .wcp-visual-adverts-headline-info, .wcp-visual-adverts-headline-links { display: block; width: 100%; }
+    .wrap.wcp-visual-adverts-form-wrap .nav-tab-wrapper a.nav-tab { padding: 5px 18px; } 
+}
+/*-----------------------------------------------------------------*/
+/*---------- Styles for mobile 0 - 570 --------*/
+/*-----------------------------------------------------------------*/
+@media only screen and (min-width: 0) and (max-width: 570px) {
+    .wrap.wcp-visual-adverts-form-wrap .nav-tab-wrapper a.nav-tab { padding: 5px 10px; } 
+}
+/*-----------------------------------------------------------------*/
+/*---------- Styles for mobile 0 - 480x --------*/
+/*-----------------------------------------------------------------*/
+@media only screen and (min-width: 0) and (max-width: 480px) {
+    .wrap.wcp-visual-adverts-form-wrap .nav-tab-wrapper { padding-bottom: 0; }
+    .wrap.wcp-visual-adverts-form-wrap .nav-tab-wrapper a.nav-tab { margin-bottom: 10px; padding: 5px 18px; }
+    .wcp-visual-adverts-settings-content .wcp-visual-adverts-settings-inner-table .form-table input[type="number"] { max-width: 70px; }
+    .wcp-visual-adverts-settings-content .wcp-visual-adverts-settings-inner-table .form-table label { font-size: 13px; }
+} 
+
+/*-----------------------------------------------------------------*/
+/*---------- Styles for mobile 0 - 330px --------*/
+/*-----------------------------------------------------------------*/
+@media only screen and (min-width: 0) and (max-width: 330px) {
+    .form-table .wcp-visual-adverts-field-imagesize .wcp-visual-adverts-field-settings-row > label { display: block; padding: 5px 0; }
+    .form-table .wcp-visual-adverts-field-imagesize .wcp-visual-adverts-field-settings-row > label:first-child { padding-top: 0; }
+    .form-table .wcp-visual-adverts-field-imagesize input[type="number"] { margin-left: 0; } 
+    .form-table .wcp-visual-adverts-field-imagesize .wcp-visual-adverts-field-settings-notice .description { right: -175px; } 
+    .form-table .wcp-visual-adverts-field-imagesize .wcp-visual-adverts-field-settings-notice .description::after,
+    .form-table .wcp-visual-adverts-field-imagesize .wcp-visual-adverts-field-settings-notice .description::before { left: 27.5%; }  
+}
+
+

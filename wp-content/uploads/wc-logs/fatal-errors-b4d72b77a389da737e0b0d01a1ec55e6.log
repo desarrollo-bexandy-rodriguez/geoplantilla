@@ -1,0 +1,90 @@
+2017-11-05T16:35:09+00:00 CRITICAL Uncaught Error: Using $this when not in object context in /home/brodriguez/public_html/geoplantilla/wp-content/plugins/wyz-toolkit/businesses-and-offers/businesses/business-post.php:493
+Stack trace:
+#0 /home/brodriguez/public_html/geoplantilla/wp-content/plugins/wyz-toolkit/businesses-and-offers/businesses/business-post.php(578): WyzBusinessPost::wyz_get_business_content(Array, true)
+#1 /home/brodriguez/public_html/geoplantilla/wp-content/plugins/wyz-toolkit/businesses-and-offers/businesses/ajax-handlers.php(1063): WyzBusinessPost::wyz_create_business_grid_look()
+#2 /home/brodriguez/public_html/geoplantilla/wp-includes/plugin.php(525): wyz_get_businesses_js_data('')
+#3 /home/brodriguez/public_html/geoplantilla/wp-admin/admin-ajax.php(89): do_action('wp_ajax_global_...')
+#4 {main}
+  thrown
+
+2017-11-05T16:35:28+00:00 CRITICAL Uncaught Error: Using $this when not in object context in /home/brodriguez/public_html/geoplantilla/wp-content/plugins/wyz-toolkit/businesses-and-offers/businesses/business-post.php:493
+Stack trace:
+#0 /home/brodriguez/public_html/geoplantilla/wp-content/plugins/wyz-toolkit/businesses-and-offers/businesses/business-post.php(578): WyzBusinessPost::wyz_get_business_content(Array, true)
+#1 /home/brodriguez/public_html/geoplantilla/wp-content/plugins/wyz-toolkit/businesses-and-offers/businesses/ajax-handlers.php(1063): WyzBusinessPost::wyz_create_business_grid_look()
+#2 /home/brodriguez/public_html/geoplantilla/wp-includes/plugin.php(525): wyz_get_businesses_js_data('')
+#3 /home/brodriguez/public_html/geoplantilla/wp-admin/admin-ajax.php(89): do_action('wp_ajax_global_...')
+#4 {main}
+  thrown
+
+2017-11-05T16:36:22+00:00 CRITICAL Uncaught Error: Using $this when not in object context in /home/brodriguez/public_html/geoplantilla/wp-content/plugins/wyz-toolkit/businesses-and-offers/businesses/business-post.php:493
+Stack trace:
+#0 /home/brodriguez/public_html/geoplantilla/wp-content/plugins/wyz-toolkit/businesses-and-offers/businesses/business-post.php(578): WyzBusinessPost::wyz_get_business_content(Array, true)
+#1 /home/brodriguez/public_html/geoplantilla/wp-content/plugins/wyz-toolkit/businesses-and-offers/businesses/ajax-handlers.php(1063): WyzBusinessPost::wyz_create_business_grid_look()
+#2 /home/brodriguez/public_html/geoplantilla/wp-includes/plugin.php(525): wyz_get_businesses_js_data('')
+#3 /home/brodriguez/public_html/geoplantilla/wp-admin/admin-ajax.php(89): do_action('wp_ajax_global_...')
+#4 {main}
+  thrown
+
+2017-11-05T16:38:37+00:00 CRITICAL Uncaught Error: Using $this when not in object context in /home/brodriguez/public_html/geoplantilla/wp-content/plugins/wyz-toolkit/businesses-and-offers/businesses/business-post.php:493
+Stack trace:
+#0 /home/brodriguez/public_html/geoplantilla/wp-content/plugins/wyz-toolkit/businesses-and-offers/businesses/business-post.php(578): WyzBusinessPost::wyz_get_business_content(Array, true)
+#1 /home/brodriguez/public_html/geoplantilla/wp-content/plugins/wyz-toolkit/businesses-and-offers/businesses/ajax-handlers.php(1063): WyzBusinessPost::wyz_create_business_grid_look()
+#2 /home/brodriguez/public_html/geoplantilla/wp-includes/plugin.php(525): wyz_get_businesses_js_data('')
+#3 /home/brodriguez/public_html/geoplantilla/wp-admin/admin-ajax.php(89): do_action('wp_ajax_global_...')
+#4 {main}
+  thrown
+
+2017-11-05T16:40:32+00:00 CRITICAL Uncaught Error: Using $this when not in object context in /home/brodriguez/public_html/geoplantilla/wp-content/plugins/wyz-toolkit/businesses-and-offers/businesses/business-post.php:493
+Stack trace:
+#0 /home/brodriguez/public_html/geoplantilla/wp-content/plugins/wyz-toolkit/businesses-and-offers/businesses/business-post.php(579): WyzBusinessPost::wyz_get_business_content(Array, true)
+#1 /home/brodriguez/public_html/geoplantilla/wp-content/plugins/wyz-toolkit/businesses-and-offers/businesses/ajax-handlers.php(1063): WyzBusinessPost::wyz_create_business_grid_look()
+#2 /home/brodriguez/public_html/geoplantilla/wp-includes/plugin.php(525): wyz_get_businesses_js_data('')
+#3 /home/brodriguez/public_html/geoplantilla/wp-admin/admin-ajax.php(89): do_action('wp_ajax_global_...')
+#4 {main}
+  thrown
+
+2017-11-05T18:04:08+00:00 CRITICAL Uncaught Error: Using $this when not in object context in /home/brodriguez/public_html/geoplantilla/wp-content/plugins/wyz-toolkit/businesses-and-offers/businesses/business-post.php:495
+Stack trace:
+#0 /home/brodriguez/public_html/geoplantilla/wp-content/plugins/wyz-toolkit/businesses-and-offers/businesses/business-post.php(580): WyzBusinessPost::wyz_get_business_content(Array, true)
+#1 /home/brodriguez/public_html/geoplantilla/wp-content/plugins/wyz-toolkit/businesses-and-offers/businesses/ajax-handlers.php(1063): WyzBusinessPost::wyz_create_business_grid_look()
+#2 /home/brodriguez/public_html/geoplantilla/wp-includes/plugin.php(525): wyz_get_businesses_js_data('')
+#3 /home/brodriguez/public_html/geoplantilla/wp-admin/admin-ajax.php(89): do_action('wp_ajax_global_...')
+#4 {main}
+  thrown
+
+2017-11-05T19:06:11+00:00 CRITICAL Uncaught Error: Using $this when not in object context in /home/brodriguez/public_html/geoplantilla/wp-content/plugins/wyz-toolkit/businesses-and-offers/businesses/business-post.php:501
+Stack trace:
+#0 /home/brodriguez/public_html/geoplantilla/wp-content/plugins/wyz-toolkit/businesses-and-offers/businesses/business-post.php(591): WyzBusinessPost::wyz_get_business_content(Array, true)
+#1 /home/brodriguez/public_html/geoplantilla/wp-content/plugins/wyz-toolkit/businesses-and-offers/businesses/ajax-handlers.php(1063): WyzBusinessPost::wyz_create_business_grid_look()
+#2 /home/brodriguez/public_html/geoplantilla/wp-includes/plugin.php(525): wyz_get_businesses_js_data('')
+#3 /home/brodriguez/public_html/geoplantilla/wp-admin/admin-ajax.php(89): do_action('wp_ajax_global_...')
+#4 {main}
+  thrown
+
+2017-11-05T19:06:34+00:00 CRITICAL Uncaught Error: Using $this when not in object context in /home/brodriguez/public_html/geoplantilla/wp-content/plugins/wyz-toolkit/businesses-and-offers/businesses/business-post.php:501
+Stack trace:
+#0 /home/brodriguez/public_html/geoplantilla/wp-content/plugins/wyz-toolkit/businesses-and-offers/businesses/business-post.php(591): WyzBusinessPost::wyz_get_business_content(Array, true)
+#1 /home/brodriguez/public_html/geoplantilla/wp-content/plugins/wyz-toolkit/businesses-and-offers/businesses/ajax-handlers.php(1063): WyzBusinessPost::wyz_create_business_grid_look()
+#2 /home/brodriguez/public_html/geoplantilla/wp-includes/plugin.php(525): wyz_get_businesses_js_data('')
+#3 /home/brodriguez/public_html/geoplantilla/wp-admin/admin-ajax.php(89): do_action('wp_ajax_global_...')
+#4 {main}
+  thrown
+
+2017-11-06T04:11:38+00:00 CRITICAL Uncaught Error: Call to undefined function ver_shortcode() in /home/brodriguez/public_html/geoplantilla/wp-content/plugins/wyz-toolkit/businesses-and-offers/businesses/business-post.php:542
+Stack trace:
+#0 /home/brodriguez/public_html/geoplantilla/wp-content/plugins/wyz-toolkit/businesses-and-offers/businesses/business-post.php(647): WyzBusinessPost::wyz_get_business_content(Array, true)
+#1 /home/brodriguez/public_html/geoplantilla/wp-content/plugins/wyz-toolkit/businesses-and-offers/businesses/ajax-handlers.php(1063): WyzBusinessPost::wyz_create_business_grid_look()
+#2 /home/brodriguez/public_html/geoplantilla/wp-includes/plugin.php(525): wyz_get_businesses_js_data('')
+#3 /home/brodriguez/public_html/geoplantilla/wp-admin/admin-ajax.php(99): do_action('wp_ajax_nopriv_...')
+#4 {main}
+  thrown
+
+2017-11-06T04:12:00+00:00 CRITICAL Uncaught Error: Call to undefined function ver_shortcode() in /home/brodriguez/public_html/geoplantilla/wp-content/plugins/wyz-toolkit/businesses-and-offers/businesses/business-post.php:542
+Stack trace:
+#0 /home/brodriguez/public_html/geoplantilla/wp-content/plugins/wyz-toolkit/businesses-and-offers/businesses/business-post.php(647): WyzBusinessPost::wyz_get_business_content(Array, true)
+#1 /home/brodriguez/public_html/geoplantilla/wp-content/plugins/wyz-toolkit/businesses-and-offers/businesses/ajax-handlers.php(1063): WyzBusinessPost::wyz_create_business_grid_look()
+#2 /home/brodriguez/public_html/geoplantilla/wp-includes/plugin.php(525): wyz_get_businesses_js_data('')
+#3 /home/brodriguez/public_html/geoplantilla/wp-admin/admin-ajax.php(99): do_action('wp_ajax_nopriv_...')
+#4 {main}
+  thrown
+
