@@ -1,0 +1,18 @@
+2017-11-13T19:43:01+00:00 CRITICAL Uncaught Error: Cannot use object of type WyzSingleBusinessData as array in /home/brodriguez/public_html/geoplantilla/wp-content/plugins/wyz-toolkit/businesses-and-offers/businesses/templates/single-business-1.php:13
+Stack trace:
+#0 /home/brodriguez/public_html/geoplantilla/wp-content/plugins/wyz-toolkit/businesses-and-offers/businesses/single-business.php(110): require_once()
+#1 /home/brodriguez/public_html/geoplantilla/wp-includes/template-loader.php(75): include('/home/brodrigue...')
+#2 /home/brodriguez/public_html/geoplantilla/wp-blog-header.php(19): require_once('/home/brodrigue...')
+#3 /home/brodriguez/public_html/geoplantilla/index.php(17): require('/home/brodrigue...')
+#4 {main}
+  thrown
+
+2017-11-13T19:43:09+00:00 CRITICAL Uncaught Error: Cannot use object of type WyzSingleBusinessData as array in /home/brodriguez/public_html/geoplantilla/wp-content/plugins/wyz-toolkit/businesses-and-offers/businesses/templates/single-business-1.php:13
+Stack trace:
+#0 /home/brodriguez/public_html/geoplantilla/wp-content/plugins/wyz-toolkit/businesses-and-offers/businesses/single-business.php(110): require_once()
+#1 /home/brodriguez/public_html/geoplantilla/wp-includes/template-loader.php(75): include('/home/brodrigue...')
+#2 /home/brodriguez/public_html/geoplantilla/wp-blog-header.php(19): require_once('/home/brodrigue...')
+#3 /home/brodriguez/public_html/geoplantilla/index.php(17): require('/home/brodrigue...')
+#4 {main}
+  thrown
+

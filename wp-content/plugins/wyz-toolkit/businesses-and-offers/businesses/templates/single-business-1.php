@@ -3,9 +3,29 @@
 /**
  * Get business map.
  */
-$business_data->the_business_map();
+$business_data->the_business_map(); ?>
 
-WyzHelpers::wyz_the_business_subheader( $id );?>
+<!-- Slider Publicidad
+============================================ -->
+<div class="publicidad sigle-superior">
+	<?php
+		$banner_superior = '';
+		$banner_superior = get_post_meta( $id, 'wyzi_claim_fields_1' , true );
+		echo do_shortcode($banner_superior);
+?>
+</div>
+
+<?php WyzHelpers::wyz_the_business_subheader( $id );?>
+
+<!-- Slider Secundario
+============================================ -->
+<div class="publicidad single-inferior">
+	<?php
+		$banner_inferior = '';
+		$banner_inferior = get_post_meta( $id, 'wyzi_claim_fields_2' , true );
+		echo do_shortcode($banner_inferior);
+?>
+</div>
 
 <!-- Business Tab Area
 ============================================ -->
@@ -13,7 +33,7 @@ WyzHelpers::wyz_the_business_subheader( $id );?>
 	<div class="container">
 		<div class="row">
 			<!-- Business Tab List -->
-			<div class="business-tab-list col-xs-12">
+			<div class="business-tab-list col-xs-12" <?php if ('' != $banner_inferior) echo 'style="margin-top: 0px !important;"'?>>
 				<ul id="business-tabs">
 				<?php $business_data->the_tabs();?>
 				</ul>

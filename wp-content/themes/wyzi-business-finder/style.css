@@ -189,3 +189,11 @@ head a {
   position: absolute;
   bottom: 50px;
 }
+
+.single-inferior {
+  margin-bottom: 15px;
+}
+
+.business-tab-list {
+    margin-top: 0px !important;
+}

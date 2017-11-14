@@ -487,11 +487,13 @@ class WyzBusinessPost extends WyzBusinessPostOverridden {
 							$lat = $mapGPS['latitude'];
 							$lon = $mapGPS['longitude'];
 						 ?>
-						<a href="<?php echo get_the_permalink();?>" class="btn" title="Leer Más">
-						<i class="material-icons icono" style="color:#CC0000;">info</i>
-						</a>
-						<a href="https://www.google.com/maps?daddr=<?php echo $lat; ?>,<?php echo $lon; ?>" class="btn" title="Cómo Llegar">
-						<i class="material-icons icono" style="color:#3366FF;">directions</i>
+
+						 	<a href="<?php echo get_the_permalink();?>" class="btn btn-danger btn-xs" title="Leer Más">
+								<span class="dashicons dashicons-info"></span>  Leer Más
+							</a>
+
+						<a href="https://www.google.com/maps?daddr=<?php echo $lat; ?>,<?php echo $lon; ?>" class="btn btn-primary btn-xs" title="Cómo Llegar">
+						<span class="dashicons dashicons-admin-site"></span> Cómo Llegar
 						</a>
 				</div>
 
