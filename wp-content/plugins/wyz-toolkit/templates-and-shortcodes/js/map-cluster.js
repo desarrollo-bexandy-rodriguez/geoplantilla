@@ -138,7 +138,7 @@ function wyz_load_map(){
 			if(''!=globalMap.GPSLocations[ii].latitude&&''!=globalMap.GPSLocations[ii].longitude){
 				var latlng = new google.maps.LatLng(parseFloat(globalMap.GPSLocations[ii].latitude), parseFloat(globalMap.GPSLocations[ii].longitude));
 
-				content = '<div id="content">'+
+				content = '<div id="content prueba">'+
 					'<div style="display:none;">' + globalMap.businessNames[ii] + '</div>' +
 					'<div id="siteNotice">'+
 					'</div>'+

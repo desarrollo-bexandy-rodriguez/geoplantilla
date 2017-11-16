@@ -18,6 +18,7 @@ defined( 'ABSPATH' ) or die('¡Sin trampas!');
 if (is_admin()) {
   require_once('admin/meta-box-extension-titulo.php');
 } else {
-  require_once('public/cambia-titulos.php');
+  //require_once('public/cambia-titulos.php');
+  require_once('public/enviar-club-ajax.php');
 }
 

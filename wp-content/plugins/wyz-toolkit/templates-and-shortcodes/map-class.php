@@ -1568,7 +1568,6 @@ class WyzMap{
 		} else {
 			$marker = $holder;
 		}
-var_dump($marker);
 
 		$map_skin = get_option( 'wyz_business_archives_map_skin' );
 		$map_php_vars = array(
@@ -1638,7 +1637,7 @@ var_dump($marker);
 		<?php
 	}
 
-	private static function listing_map_sidebar( $class='', $business_id = '' ){
+	private static function listing_map_sidebar( $class='', $business_id = '' ) {
 
 	echo ( '' == $class ? '<div class="col-md-8"></div>' : '' );
 	$can_booking = false;

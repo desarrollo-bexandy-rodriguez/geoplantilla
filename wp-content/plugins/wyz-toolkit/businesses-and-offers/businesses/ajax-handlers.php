@@ -1170,8 +1170,8 @@ function wyz_get_businesses_js_data() {
 
 	wp_die( wp_json_encode( $global_map_java_data ) );
 }
-add_action( 'wp_ajax_global_map_search', 'wyz_get_businesses_js_data' );
-add_action( 'wp_ajax_nopriv_global_map_search', 'wyz_get_businesses_js_data' );
+//add_action( 'wp_ajax_global_map_search', 'wyz_get_businesses_js_data' );
+//add_action( 'wp_ajax_nopriv_global_map_search', 'wyz_get_businesses_js_data' );
 
 
 /*

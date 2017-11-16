@@ -28,3 +28,5 @@ function wprincipiante_cambiar_titulo($title, $id )
   return $title;
 }
 add_filter( 'the_title', 'wprincipiante_cambiar_titulo', 10, 2 );
+
+
