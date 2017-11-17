@@ -582,7 +582,7 @@ class WyzBusinessPost extends WyzBusinessPostOverridden {
 		if ($sticky) {
 			return self::custom_get_business_listable( true , $business_data );
 		} else {
-			return false;
+			return self::custom_get_business_listable( true , $business_data );
 		}
 
 	}
@@ -592,7 +592,7 @@ class WyzBusinessPost extends WyzBusinessPostOverridden {
 		$sticky = is_sticky();
 		ob_start();?>
 
-						<a href="#" class="grid__item  grid__item--widget">
+						<a href="#" class="grid__item  grid__item--widget" style="padding-left: 15px !important; padding-right: 15px !important;">
 							<article class="card  card--listing  card--widget  " data-latitude="1.0"
 							         data-longitude="2.0"
 							         data-img="imagen"

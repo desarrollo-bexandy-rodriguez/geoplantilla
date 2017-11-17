@@ -447,8 +447,8 @@ function wyz_load_map(){
 			paginateBusinessList();
 			old_encabesado = '<div class="bus-list-container">';
 			olf_footer = '</div>';
-			encabezado_business_list = '<div class="widgets_area"><div class="front-page-section"><div class="section-wrap"><div class="widget_front_page_listing_cards"><div class="widget_title  widget_title--frontpage">';
-			footer_business_list =	'</div></div></div></div></div>';
+			encabezado_business_list = '<div class="widgets_area"><div class="section-wrap"><div class="widget_front_page_listing_cards"><div class="widget_title  widget_title--frontpage">';
+			footer_business_list =	'</div></div></div></div>';
 			//jQuery('#business-list').hide();
 			if(globalMap.ess_grid_shortcode == '') {
 			jQuery('#business-list').html(appendTop + encabezado_business_list + globalMap.businessList + footer_business_list + appendBottom );
