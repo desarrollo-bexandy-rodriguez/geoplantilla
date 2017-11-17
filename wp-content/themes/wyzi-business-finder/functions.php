@@ -128,6 +128,7 @@ function theme_styles()
 	// Load all of the styles that need to appear on all pages
 	wp_enqueue_style( 'listable-rtl', get_template_directory_uri() . '/css/listable-rtl.css' );
 	wp_enqueue_style( 'listable-style', get_template_directory_uri() . '/css/listable-style.css' );
+	wp_enqueue_style( 'listable-style', get_template_directory_uri() . '/css/mi-incorporado.css' );
 
 	// Conditionally load the FlexSlider CSS on the homepage
 	//if(is_page('home')) {

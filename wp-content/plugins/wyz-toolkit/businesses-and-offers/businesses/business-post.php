@@ -598,17 +598,21 @@ class WyzBusinessPost extends WyzBusinessPostOverridden {
 							         data-img="imagen"
 							         data-permalink="url">
 
-								<aside class="card__image" style="background-image: background-image: url(http://listable.local/wp-content/uploads/2015/11/01_listable_demo-450x279.jpg);">
-									<span class="card__featured-tag">Featured</span>
+								<aside class="card__image" style="background-image: background-image: url(http://listable.local/wp-content/uploads/2015/11/01_listable_demo-450x279.jpg);">												<?php if ( $sticky ) {?>
+															<span class="card__featured-tag"><?php esc_html_e( 'FEATURED', 'wyzi-business-finder' );?></span>
+													<?php }?>
 								</aside>
 
 								<div class="card__content">
-									<h2 class="card__title" itemprop="name">Nombre del Club</h2>
-									<div class="card__tagline">Slogan del club</div>
+									<h2 class="card__title" itemprop="name" ><?php the_title();?></h2>
+									<?php
+									$bldg = get_post_meta( $business_data['id'], 'wyz_business_bldg' , true );
+									$street = get_post_meta( $business_data['id'], 'wyz_business_street' , true );
+									$city = get_post_meta( $business_data['id'], 'wyz_business_city' , true );
+									?>
+									<div class="card__tagline" style="font-size: 0.7em !important; overflow: hidden"><?php echo $bldg.'  '.$street.' '.$city; ?></div>
 									<footer class="card__footer">
-											<div class="rating  card__rating">
-												<span class="js-average-rating">4.0</span>
-											</div>
+
 											<ul class="card__tags">
 													<li>
 														<div class="card__tag">
@@ -631,15 +635,10 @@ class WyzBusinessPost extends WyzBusinessPostOverridden {
 
 
 											<div class="address  card__address">
+			<?php if ( has_post_thumbnail() ) {?>
+				<?php the_post_thumbnail( 'medium' );?>
+			<?php } ?>
 
-												<div itemprop="streetAddress">
-													<span class="address__street">Curtain Rd</span>
-													<span class="address__street-no">135-139</span>
-												</div>
-												<span class="address__city" itemprop="addressLocality">London</span>
-												<span class="address__postcode" itemprop="postalCode">EC2A 3BX</span>
-												<span class="address__state-short" itemprop="addressRegion">Gt Lon</span>
-												<span class="address__country-short" itemprop="addressCountry">GB</span>
 											</div>
 
 									</footer>

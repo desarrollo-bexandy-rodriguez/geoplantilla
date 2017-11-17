@@ -1,0 +1,97 @@
+
+.site-header .site-title {
+ font-family: Hanken;
+font-weight: 400;
+}
+.primary-menu > ul, ul.primary-menu a {
+ font-family: Hanken;
+font-weight: 400;
+}
+input,
+                textarea,
+                label,
+                html,
+                .entry-content blockquote cite,
+                .comment-content blockquote cite,
+                .card--feature .card__content,
+                .rating,
+                .widget--footer .search-form .search-field,
+                .featured-label,
+                .package__description,
+                .footer-text-area,
+                .widget_listing_comments h3.pixrating_title,
+                .chosen-container-multi .chosen-choices,
+                .chosen-container-single .chosen-single,
+                .product .product__price,
+                .product .product__tag {
+ font-family: Source Sans Pro;
+}
+.entry-title, .archive-title,
+                  h1, h2, h3,
+                  .card--feature .card__title,
+                  .results,
+                  .page-title,
+                  .search_location input,
+                  .package__title, .package__price,
+                  .package__subscription-period,
+                  h2.comments-title,
+                  .page-add-listing fieldset:first-child label,
+                  .product-content .price {
+ font-family: Hanken;
+font-weight: 400;
+}
+.intro,
+                  .description,
+                  .tabs.wc-tabs,
+                  .job-manager-form fieldset .job-manager-uploaded-files .job-manager-uploaded-file .job-manager-uploaded-file-preview a,
+                  .widget_subtitle--frontpage,
+                  .category-list a,
+                  .single:not(.single-job_listing) .entry-subtitle,
+                  .page .entry-subtitle,
+                  .single-job_listing .entry-subtitle {
+ font-family: Hanken;
+font-weight: 400;
+}
+.card__title.card__title, ul.categories--widget .category-count,
+                  ul.categories--widget .category-text {
+ font-family: Hanken;
+font-weight: 400;
+}
+.card {
+ font-family: Hanken;
+font-weight: 400;
+}
+.single:not(.single-job_listing) .entry-meta,
+                .page .entry-meta,
+                .single:not(.single-job_listing) div.sd-social.sd-social > div.sd-content.sd-content ul li > a,
+                .page div.sd-social.sd-social > div.sd-content.sd-content ul li > a,
+                .search_jobs select,
+                .search-form .search-field,
+                .search_jobs--frontpage .chosen-container .chosen-results li,
+                .search_jobs--frontpage .chosen-container-multi .chosen-choices li.search-field input[type=text],
+                .search_jobs--frontpage .chosen-container-single .chosen-single span,
+                .search_jobs .chosen-container .chosen-results li,
+                .search_jobs .chosen-container-multi .chosen-choices li.search-field input[type=text],
+                .search_jobs .chosen-container-single .chosen-single span,
+                .search_jobs--frontpage-facetwp,
+                .search_jobs--frontpage-facetwp input,
+                .search_jobs--frontpage-facetwp select,
+                .search_jobs--frontpage-facetwp .facetwp-filter-title,
+                .header-facet-wrapper .facetwp-facet input,
+                .header-facet-wrapper .facetwp-facet select,
+                .header-facet-wrapper .facetwp-facet label,
+                .active-tag,
+                .chosen-results,
+                .job_filters .search_jobs div.search_location input,
+                .search-suggestions-menu li a,
+                .page-template-front_page .search-form .search-submit,
+                .btn,
+                input[type="submit"],
+                button[type="submit"],
+                .woocommerce-account:not(.logged-in) .woocommerce form.login input[type="submit"],
+                .woocommerce .button,
+                .search_jobs--frontpage #search_location {
+ font-family: Hanken;
+font-weight: 400;
+}
+
