@@ -118,4 +118,23 @@ function wmpudev_enqueue_icon_stylesheet() {
 }
 add_action( 'wp_enqueue_scripts', 'wmpudev_enqueue_icon_stylesheet' );
 
+// Load the theme stylesheets
+function theme_styles()
+{
+
+	// Example of loading a jQuery slideshow plugin just on the homepage
+	//wp_register_style( 'flexslider', get_template_directory_uri() . '/css/flexslider.css' );
+
+	// Load all of the styles that need to appear on all pages
+	wp_enqueue_style( 'listable-rtl', get_template_directory_uri() . '/css/listable-rtl.css' );
+	wp_enqueue_style( 'listable-style', get_template_directory_uri() . '/css/listable-style.css' );
+
+	// Conditionally load the FlexSlider CSS on the homepage
+	//if(is_page('home')) {
+	//	wp_enqueue_style('flexslider');
+	//}
+
+}
+add_action('wp_enqueue_scripts', 'theme_styles');
+
 ?>

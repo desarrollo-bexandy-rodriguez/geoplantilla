@@ -19,6 +19,8 @@ Version: 2.0.3
     width: auto !important;
 }
 */
+@import listable-rtl.css;
+@import listable-style.css;
 
 .bus-post-grid .footer {
     height: 7px !important;

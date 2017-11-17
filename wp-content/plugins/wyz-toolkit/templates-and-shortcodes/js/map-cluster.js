@@ -445,12 +445,16 @@ function wyz_load_map(){
 	function updateBusinessList(){
 		if('' != globalMap.businessList){
 			paginateBusinessList();
+			old_encabesado = '<div class="bus-list-container">';
+			olf_footer = '</div>';
+			encabezado_business_list = '<div class="widgets_area"><div class="front-page-section"><div class="section-wrap"><div class="widget_front_page_listing_cards"><div class="widget_title  widget_title--frontpage">';
+			footer_business_list =	'</div></div></div></div></div>';
 			//jQuery('#business-list').hide();
 			if(globalMap.ess_grid_shortcode == '') {
-			jQuery('#business-list').html(appendTop + '<div class="bus-list-container">' + globalMap.businessList + '</div>' + appendBottom );
+			jQuery('#business-list').html(appendTop + encabezado_business_list + globalMap.businessList + footer_business_list + appendBottom );
 			 }
 			else {
-			jQuery('#business-list').html(appendTop + '<div class="bus-list-container">' + globalMap.ess_grid_shortcode + '</div>' + appendBottom);
+			jQuery('#business-list').html(appendTop + encabezado_business_list  + globalMap.ess_grid_shortcode + footer_business_list + appendBottom);
 			}
 			setTimeout(function(){ jQuery('#business-list').show(); jQuery('#business-list').resize();}, 100);
 		}
