@@ -592,16 +592,29 @@ class WyzBusinessPost extends WyzBusinessPostOverridden {
 		$sticky = is_sticky();
 		ob_start();?>
 
-						<a href="#" class="grid__item  grid__item--widget" style="padding-left: 15px !important; padding-right: 15px !important;">
+						<a href="<?php echo esc_attr( get_permalink() );?>" class="grid__item  grid__item--widget" style="padding-left: 15px !important; padding-right: 15px !important; height: 440px !important">
 							<article class="card  card--listing  card--widget  " data-latitude="1.0"
 							         data-longitude="2.0"
 							         data-img="imagen"
 							         data-permalink="url">
 
-								<aside class="card__image" style="background-image: background-image: url(http://listable.local/wp-content/uploads/2015/11/01_listable_demo-450x279.jpg);">												<?php if ( $sticky ) {?>
+							<?php
+
+									$meta_custom = '';
+									$meta_custom = get_post_meta( $business_data['id'], 'wyzi_claim_fields_0' , true );
+									if ('' != $meta_custom) {
+										echo do_shortcode($meta_custom);
+									} else { ?>
+																		<aside class="card__image" style="">
+								<?php if ( $sticky ) {?>
 															<span class="card__featured-tag"><?php esc_html_e( 'FEATURED', 'wyzi-business-finder' );?></span>
 													<?php }?>
+
 								</aside>
+									<?php }
+
+								?>
+
 
 								<div class="card__content">
 									<h2 class="card__title" itemprop="name" ><?php the_title();?></h2>
