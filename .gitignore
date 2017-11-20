@@ -1,2 +1,5 @@
 # Archivos a ignorar durante sincronizacion
 wp-config.php
+acces.log
+error.log
+request.log
